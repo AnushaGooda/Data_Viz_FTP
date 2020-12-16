@@ -131,3 +131,4 @@ dmypy.json
 # large datasets
 datasets/BasicCompanyDataAsOneFile-2020-11-01.csv
 datasets/cleaned_data.csv
+datasets/features_data.csv
