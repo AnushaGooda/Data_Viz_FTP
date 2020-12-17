@@ -1,7 +1,19 @@
 # **SMM635 - Data Visualization (Final Project)**
 
-## **Overview**
-""TO BE ADDED""
+## Introduction
+
+This final course project deals with the genesis and the transformation of Tech City (aka Silicon Roundabout), one of the most prominent technology-based clusters in the world.
+
+## Problem to address
+
+The students are required to jointly use geospatial analysis and dynamic visualization to represent the emergence and transformation of Tech City. The audience is difficult to frame – the visualization should be included in a blog talking about digital technologies and societies.
+
+## Background for the case study
+
+To deliver the project, students may want to:
+
+- conduct a qualitative/historical investigation of the history of Tech city
+- appreciate the existence of key events or policy making decisions that could have represented turning points in the lifecycle of Tech City
 
 ## **Dataset**
 - company-level data on UK-based businesses can be retrieved from the archived of [Free Company Data Product](http://download.companieshouse.gov.uk/en_output.html)
@@ -13,6 +25,7 @@
         ├── README.md
         ├── .gitignore
         ├── requirements.txt
+        ├── Data Visualization Companion Document.docx
         ├── datasets
         │   ├── Industry_codes - Finance.csv
         │   ├── Industry_codes - Info - Communcation Tech.csv
@@ -51,7 +64,7 @@
 
 ## File Description
 -   `requirements.txt` -> Python packages requirements
-
+-   `Data Visualization Companion Document.docx` -> companion document
 ### datasets
 -   `Industry_codes - Finance.csv` -> 
 -   `Industry_codes - Info - Communcation Tech.csv` -> 
@@ -72,7 +85,7 @@
 -   `01_Select Features.ipynb` -> 
 -   `02_final_data_cleaning.ipynb` ->  
 -   `03_Industry_cleanup.ipynb` ->  
--   `not_run_data_cleaning.ipynb` ->  clean raw data and create `cleaned_data.csv`
+-   `not_run_data_cleaning.ipynb` -> clean raw data and create `cleaned_data.csv`
 -   `not_run_get_coordinate.ipynb` -> request coordinates from a server
 
 
@@ -82,11 +95,11 @@
 -   `02_impact_events_visulisations.ipynb` -> 
 
 ##### output
--   `sector_comparison_frames` -> 
--   `sector_comparison.html` -> 
--   `events_sector_tech_city.png` -> 
--   `geospatial.html` -> 
--   `lollipop_event_chart.html` -> 
--   `pie.html` -> 
+-   `sector_comparison_frames` -> folder contains images for `sector_comparison.html`
+-   `sector_comparison.html` -> sector development over real time during the development of tech city
+-   `events_sector_tech_city.png` -> heat map of the impact of different key events on each sector
+-   `geospatial.html` ->  sector composition of tech city with geographical location in the tech city.
+-   `lollipop_event_chart.html` -> key Events Breakdown and its Effect on Tech City by Sectors
+-   `pie.html` -> district and sector wise breakdown of Tech City
 -   `timeline_chart.html` -> 
 
