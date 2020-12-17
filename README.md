@@ -90,15 +90,15 @@ To deliver the project, students may want to:
 
 
 #### visualization
--   `00_tech_city_geospatial_by_sector.ipynb` -> Geospatial visualisation of tech city
--   `01_tech_city_growth_over_time.ipynb` -> Growth of industries over time
--   `02_impact_events_visulisations.ipynb` -> Impact of global events on the development of tech city
+-   `00_tech_city_geospatial_by_sector.ipynb` -> geospatial visualisation of Tech City
+-   `01_tech_city_growth_over_time.ipynb` -> growth of industries over time
+-   `02_impact_events_visulisations.ipynb` -> impact of global events on the development of Tech City
 
 ##### output
 -   `sector_comparison_frames` -> folder contains images for `sector_comparison.html`
--   `sector_comparison.html` -> sector development over real time during the development of tech city
+-   `sector_comparison.html` -> sector development over real time during the development of Tech City
 -   `events_sector_tech_city.png` -> heat map of the impact of different key events on each sector
--   `geospatial.html` ->  sector composition of tech city with geographical location in the tech city.
--   `lollipop_event_chart.html` -> key Events Breakdown and its Effect on Tech City by Sectors
+-   `geospatial.html` ->  sector composition of Tech City with geographical location in the Tech City
+-   `lollipop_event_chart.html` -> key events breakdown and its effect on Tech City by sector
 -   `pie.html` -> district and sector wise breakdown of Tech City
 -   `timeline_chart.html` ->
