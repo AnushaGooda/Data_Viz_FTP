@@ -25,7 +25,7 @@ To deliver the project, students may want to:
         ├── README.md
         ├── .gitignore
         ├── requirements.txt
-        ├── Data Visualization Companion Document.docx
+        ├── companion_document.docx
         ├── datasets
         │   ├── Industry_codes - Finance.csv
         │   ├── Industry_codes - Info - Communcation Tech.csv
@@ -64,7 +64,7 @@ To deliver the project, students may want to:
 
 ## File Description
 -   `requirements.txt` -> Python packages requirements
--   `Data Visualization Companion Document.docx` -> companion document
+-   `companion_document.docx` -> companion document
 ### datasets
 -   `Industry_codes - Finance.csv` -> industry codes for companies under finance umbrella
 -   `Industry_codes - Info - Communcation Tech.csv` -> industry codes for companies under info tech umbrella
