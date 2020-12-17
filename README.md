@@ -82,8 +82,8 @@
 -   `02_impact_events_visulisations.ipynb` -> 
 
 ##### output
--   `Sector_Comparison_frames` -> 
--   `Sector_Comparison.html` -> 
+-   `sector_comparison_frames` -> 
+-   `sector_comparison.html` -> 
 -   `events_sector_tech_city.png` -> 
 -   `geospatial.html` -> 
 -   `lollipop_event_chart.html` -> 
