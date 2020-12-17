@@ -59,30 +59,30 @@ To deliver the project, students may want to:
                 ├── 00_tech_city_geospatial_by_sector.ipynb
                 ├── 01_tech_city_growth_over_time.ipynb
                 └── 02_impact_events_visulisations.ipynb
-                
+
 ```
 
 ## File Description
 -   `requirements.txt` -> Python packages requirements
 -   `Data Visualization Companion Document.docx` -> companion document
 ### datasets
--   `Industry_codes - Finance.csv` -> 
--   `Industry_codes - Info - Communcation Tech.csv` -> 
+-   `Industry_codes - Finance.csv` ->
+-   `Industry_codes - Info - Communcation Tech.csv` ->
 -   `Industry_codes - Professional, scientific, technical.csv` ->
 -   `London_Borough_Excluding_MHW.json` -> .json file contains London map
 -   `cleaned_data.tar.gz` -> `.tar.gz` file contains `cleaned_data.csv`
 -   `final_cleaned_data.csv` -> 
--   `industry_added_cleaned_data.csv` -> 
--   `pivot_table_year_cumcount.csv` -> 
--   `tech_industry_added_cleaned_data.csv` -> 
+-   `industry_added_cleaned_data.csv` -> column addition from external data derived from gov.uk
+-   `pivot_table_year_cumcount.csv` ->
+-   `tech_industry_added_cleaned_data.csv` ->
 -   `tech_roundabout_coordinates.csv` -> coordinates of companies in tech roundabout by postcode
--   `tech_roundabout_merge.csv` -> 
--   `uk_plotting_data.csv` -> 
+-   `tech_roundabout_merge.csv` ->
+-   `uk_plotting_data.csv` -> company wise data along with latitude, longitude and company name
 
 ### scripts
 #### data_preprocessing
 -   `00_extract_cleaned_data.ipynb` -> extract `cleaned_data.csv` file from gunzip
--   `01_Select Features.ipynb` -> 
+-   `01_Select Features.ipynb` ->
 -   `02_final_data_cleaning.ipynb` ->  
 -   `03_Industry_cleanup.ipynb` ->  
 -   `not_run_data_cleaning.ipynb` -> clean raw data and create `cleaned_data.csv`
@@ -90,9 +90,9 @@ To deliver the project, students may want to:
 
 
 #### visualization
--   `00_tech_city_geospatial_by_sector.ipynb` -> 
--   `01_tech_city_growth_over_time.ipynb` -> 
--   `02_impact_events_visulisations.ipynb` -> 
+-   `00_tech_city_geospatial_by_sector.ipynb` -> Geospatial visualisation of tech city
+-   `01_tech_city_growth_over_time.ipynb` -> Growth of industries over time
+-   `02_impact_events_visulisations.ipynb` -> Impact of global events on the development of tech city
 
 ##### output
 -   `sector_comparison_frames` -> folder contains images for `sector_comparison.html`
@@ -101,5 +101,4 @@ To deliver the project, students may want to:
 -   `geospatial.html` ->  sector composition of tech city with geographical location in the tech city.
 -   `lollipop_event_chart.html` -> key Events Breakdown and its Effect on Tech City by Sectors
 -   `pie.html` -> district and sector wise breakdown of Tech City
--   `timeline_chart.html` -> 
-
+-   `timeline_chart.html` ->
