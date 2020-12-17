@@ -64,7 +64,7 @@ To deliver the project, students may want to:
 
 ## File Description
 -   `requirements.txt` -> Python packages requirements
--   `companion_document.docx` -> companion document
+-   `companion_document.docx` -> companion document explains the background for the visualization
 ### datasets
 -   `Industry_codes - Finance.csv` -> industry codes for companies under finance umbrella
 -   `Industry_codes - Info - Communcation Tech.csv` -> industry codes for companies under info tech umbrella
